@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chatglm-lesson"
+version = "0.1.0"
+description = ""
+authors = ["zhongchao <735018963@qq.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyjwt = "^2.8.0"
+requests = "^2.31.0"
+streamlit = "^1.33.0"
+zhipuai = "^2.0.1.20240423.1"
+python-dotenv = "^1.0.1"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
