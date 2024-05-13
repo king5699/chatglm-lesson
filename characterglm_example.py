@@ -1,5 +1,7 @@
 import time
+
 from dotenv import load_dotenv
+
 load_dotenv()
 
 from api import get_characterglm_response
